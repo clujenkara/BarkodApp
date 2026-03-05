@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/barkodEditText" android:hint="Barkod" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/urunAdiEditText" android:hint="Ürün Adı" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/fiyatEditText" android:hint="Fiyat" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/stokEditText" android:hint="Stok" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/kategoriEditText" android:hint="Kategori" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/kaydetBtn" android:text="Kaydet" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/scanButton" android:text="Barkod Tara" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/getirBtn" android:text="Ürünleri Listele" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/urunTaniBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ÜRÜN TANİ" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/barkodTaraBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Barkod Tara"
+        android:textColor="#FFFFFF"
+        android:background="#6200EE" />
+
+    <TextView
+        android:id="@+id/sonucTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:paddingTop="20dp"
+        android:text="Ürün bilgisi burada görünecek" />
+
+    <Button
+        android:id="@+id/kaydetBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Veritabanına Kaydet"
+        android:textColor="#FFFFFF"
+        android:background="#03DAC5"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
